@@ -3,7 +3,7 @@
   "vm": {
     "composefile": "docker-compose.yaml",
     "exposes": {
-      "socket": "extension-typescript-backend-extension.sock"
+      "socket": "extension-node-extension.sock"
     }
   },
   "ui": {
@@ -12,7 +12,7 @@
       "src": "index.html",
       "root": "ui",
       "backend": {
-        "socket": "extension-typescript-backend-extension.sock"
+        "socket": "extension-node-extension.sock"
       }
     }
   }
